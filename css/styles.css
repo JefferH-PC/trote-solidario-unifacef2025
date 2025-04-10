@@ -51,6 +51,11 @@ img {
     height: auto;
     margin-right: 20px; /* Espaçamento externo à direita */
     border-radius: 10px;
+    transition: 1.5s;
+}
+img:hover {
+    transform: rotateZ(6.29rad);
+    transition: 1.5s;
 }
 .container {
     width: 80%; /* Largura de 80% da largura da página */
